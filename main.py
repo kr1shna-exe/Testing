@@ -4,7 +4,7 @@ from calculations import multiply, subtract, sum
 def main(a: int, b: int):
     addition = sum(a, b)
     multiplication = multiply(a, b)
-    result = multiplication + addition + subtraction
+    result = multiplication + addition + subtract
     return result
 
 
