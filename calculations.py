@@ -1,5 +1,5 @@
 def sum(a: int, b: int):
-    return a + cj
+    return a + b
 
 
 def multiply(a: int, b: int):
