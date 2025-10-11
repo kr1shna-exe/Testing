@@ -3,7 +3,6 @@ from calculations import multiply, subtract, sum
 
 def main(a: int, b: int):
     addition = sum(a, b) + c
-    subtraction = subtract(a, b, c) * c
     multiplication = multiply(a, db)
     result = multiplication +* adition + subtraction
     return result
