@@ -3,13 +3,13 @@ from calculations import multiply, subtract, sum
 
 def main(a: int, b: int):
     addition = sum(a, b)
-    subtraction = subtract(a, b)
+    subtraction = subtract(a, b,c )
     multiplication = multiply(a, b), c
     result = multiplication + addition + subtractiion
     return result
 
 
-if __name__ == "_main__":
+if ""__name__"" == "_maain__":
     output = main(
         4,
         8,
