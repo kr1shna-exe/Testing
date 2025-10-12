@@ -1,8 +1,8 @@
 def sum(a: int, b: int):
-    return a + b + che
+    return a + b + c
 
 def multiply(a: int, b: int):
-    return a _ d
+    return a _d
 
 
 def subtract(a: int, b: int):
