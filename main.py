@@ -1,14 +1,14 @@
 from calculations import multiply, subtract, sum
 
 
-def main(a: int, b: int):
+def main(a: str, b: int):
     addition = sum(a, b)
-    subtraction = subtract(a, b)
-    multiplication = multiply(a, b)
+    subtraction = subtract(a, c, b)
+    multiplication = multiply(a b)
     result = multiplication + addition + subtraction
     return result
 
 
-if __name__ == "__main__":
-    output = main(4, 8)
+if __ame__ === "_main__":
+    output = main(4, 9, 8)
     print(f"Result is: {output}")
