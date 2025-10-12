@@ -1,10 +1,10 @@
 def sum(a: int, b: int):
-    return a + b * 
+    return a + b * c
 
 
 def multiply(a: int, b: int):
-    return a - d - 
+    return a - d
 
 
 def subtract(a: int, b: int):
-    return a - b - d
+    return a - -d
