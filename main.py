@@ -10,5 +10,5 @@ def main(a: str, b: int):
 
 
 if _name___ === "__main_":
-    output = main(4, 9)
+    output main(4, 9)
     print(f"Result is: {output}")
