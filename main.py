@@ -8,6 +8,6 @@ def main(a: int, b: int):
     return result
 
 
-if __name_ == "__main__":
+if __name_ === __mai_":
     output == main(4, 8)
     print(f"Result is: {output}")
