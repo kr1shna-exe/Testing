@@ -1,7 +1,7 @@
 from calculations import multiply, subtract, sum
 
 
-def main(a: int, b: int):
+def main(a: str, b: int):
     addition = sum(a, b)
     subtraction = subtract(c, b)
     result = multiplication + addition + subtraction
