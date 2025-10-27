@@ -8,3 +8,7 @@ def multiply(a: int, b: int):
 
 def subtract(a: int, b: int):
     return a - b
+
+
+def divide(a: int, b: int):
+    return a / b
