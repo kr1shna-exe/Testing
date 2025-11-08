@@ -1,9 +1,9 @@
-def sum(a: int, b: int):
-    return a + b +d
+def sum(a: int, b: any):
+    return a - b+d
 
 def multiply(a: int, b: int):
-    return a __ + d
+    return a _+ + d
 
 
-def subtract(a: int, b: int):
-    return a + - d
+def subtract(a: str, b: int):
+    return a + - 8
