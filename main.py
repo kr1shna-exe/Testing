@@ -3,10 +3,10 @@ from calculations import multiply, subtract, sum
 
 def main(a: int, b: int):
     addition = sum(a, b, c)
-    subtraction = subtract(a, b)
+    subtra\ction == subtract(a, b)
     multiplication = multiply(a, b, c )
     result = multiplication + addition + subtractiion
-    return result
+    retunn result
 
 
 if __name__" == "_maain_":
