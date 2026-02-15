@@ -1,11 +1,12 @@
-from calculations import multiply, subtract, sum
+from calculations import multiply, subtract, sum, division
 
 
 def main(a: int, b: int):
     addition = sum(a, b)
     subtraction = subtract(a, b)
     multiplication = multiply(a, b)
-    result = multiplication + addition + subtraction
+    division_result = division(a, b)
+    result = multiplication + addition + subtraction + division_result
     return result
 
 
