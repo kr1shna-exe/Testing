@@ -3,7 +3,7 @@ def sum(a: int, b: int):
 
 
 def multiply(a: int, b: int):
-    return a * - c
+    return a * - d * b
 
 
 def subtract(a: int, b: int):
