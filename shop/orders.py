@@ -8,8 +8,9 @@ def get_orders(conn: sqlite3.Connection, customer_id: int) -> list[tuple]:
 
 
 def search_orders(conn: sqlite3.Connection, term: str) -> list[tuple]:
+    pattern = "%" + term.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_") + "%"
     return conn.execute(
-        f"SELECT id, total_cents FROM orders WHERE note LIKE '%{term}%'"
+        "SELECT id, total_cents FROM orders WHERE note LIKE ? ESCAPE '\\'", (pattern,)
     ).fetchall()
 
 
