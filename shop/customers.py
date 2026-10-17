@@ -11,3 +11,10 @@ def customer_name(conn: sqlite3.Connection, customer_id: int) -> str | None:
         "SELECT name FROM customers WHERE id = ?", (customer_id,)
     ).fetchone()
     return row[0] if row else None
+
+
+def lifetime_dollars(conn: sqlite3.Connection, customer_id: int) -> float:
+    row = conn.execute(
+        "SELECT lifetime_cents FROM customers WHERE id = ?", (customer_id,)
+    ).fetchone()
+    return row[0] / 100
