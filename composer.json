@@ -1,0 +1,13 @@
+{
+  "name": "acme/shop",
+  "require": {
+    "php": ">=8.1"
+  },
+  "repositories": [
+    {
+      "type": "perforce",
+      "url": "perforce.example.com:1666",
+      "depot": "//depot/shop"
+    }
+  ]
+}
