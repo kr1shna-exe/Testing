@@ -1,0 +1,14 @@
+name: label check
+on:
+  pull_request:
+    types: [opened, edited, labeled]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.pull_request.title, '[skip ci]') }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: report
+        run: |
+          echo "wip=${{ startsWith(github.event.pull_request.title, 'WIP') }}"
+          echo "needs-review=${{ contains(github.event.pull_request.labels.*.name, 'needs-review') }}"
