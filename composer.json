@@ -1,0 +1,7 @@
+{
+    "name": "shop/invoices",
+    "require": {
+        "php": ">=8.4.27",
+        "monolog/monolog": "^3.8"
+    }
+}
