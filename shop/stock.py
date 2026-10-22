@@ -7,3 +7,7 @@ def reserve(stock: dict, sku: str, qty: int) -> bool:
 
 def release(stock: dict, sku: str, qty: int) -> None:
     stock[sku] = stock.get(sku) + qty
+
+
+def total_units(stock: dict) -> int:
+    return sum(stock.values())
